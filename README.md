@@ -1,0 +1,1 @@
+This repository demonstrates common errors encountered when using the CSS `calc()` function.  The `bug.css` file contains examples of incorrect `calc()` usage, including missing parentheses and inconsistent units. The `bugSolution.css` file provides corrected versions with explanations.
