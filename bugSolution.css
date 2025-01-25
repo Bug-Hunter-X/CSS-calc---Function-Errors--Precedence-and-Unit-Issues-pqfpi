@@ -1,0 +1,6 @@
+The solution involves carefully reviewing the `calc()` expression to ensure proper unit consistency and using parentheses to enforce the correct order of operations. For example, the corrected `width` and `height` declarations should be: 
+```css
+width: calc(50% - 10px);
+height: calc(calc(100% - 20px) - 10px); /* or height: calc(100% - 30px); */
+```
+Always explicitly define units for all values in your `calc()` expression to prevent unexpected results.  If you are combining percentages and pixels, it's crucial to enclose the percentage calculations within parentheses to ensure they are computed before the other operations.
